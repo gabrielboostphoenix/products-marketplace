@@ -6,9 +6,6 @@
     margin: 0px;
     box-sizing: border-box;
     color: white;
-}
-
-body {
     font-size: 16px;
 }
 
@@ -72,10 +69,12 @@ body {
         background-color: #282828;
         border-radius: 5px;
         font-weight: 700;
+        font-size: 11px;
     }
 
     .filter-option {
         font-weight: 700;
+        font-size: 11px;
     }
 }
 
@@ -126,10 +125,12 @@ body {
         width: 60%;
         border-radius: 5px;
         font-weight: bolder;
+        font-size: 13px;
     }
 
     .filter-option {
         font-weight: 600;
+        font-size: 13px;
     }
 }
 
@@ -167,7 +168,7 @@ body {
     .wordmark {
         width: 25%;
         height: 100%;
-        font-size: 1.563px;
+        font-size: 1.563em;
         font-style: italic;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-weight: 600;
@@ -194,7 +195,7 @@ body {
         width: 85%;
         height: 50%;
         padding: 8px;
-        font-size: 1.063px;
+        font-size: 1.063em;
         font-style: italic;
         color: #282828;
     }
@@ -225,10 +226,12 @@ body {
         width: 60%;
         border-radius: 5px;
         font-weight: bolder;
+        font-size: 15px;
     }
 
     .filter-option {
         font-weight: 600;
+        font-size: 15px;
     }
 }
 
@@ -293,12 +296,12 @@ body {
     }
 
     .prompt-title {
-        font-size: 1.063px;
+        font-size: 1.063em;
         text-align: center;
     }
 
     .prompt-price {
-        font-size: 0.938px;
+        font-size: 0.938em;
         text-align: center;
     }
 
