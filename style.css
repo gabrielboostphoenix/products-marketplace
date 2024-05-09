@@ -8,6 +8,10 @@
     color: white;
 }
 
+body {
+    font-size: 16px;
+}
+
 /* header area */
 .header-area {
     width: 98.91vw;
