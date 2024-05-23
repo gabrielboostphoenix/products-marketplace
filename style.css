@@ -11,8 +11,8 @@
 
 /* header area */
 .header-area {
-    width: 100%;
-    height: 15vh;
+    width: 100vw;
+    height: 18vh;
     background-color: black;
     display: flex;
     flex-flow: row nowrap;
@@ -36,7 +36,7 @@
     #search-engine {
         width: 90%;
         height: 50%;
-        padding: 8px;
+        padding: 0.5em;
         font-size: 0.75em;
         font-style: italic;
         color: #282828;
@@ -45,7 +45,7 @@
     .magnifier-image-container {
         width: 10%;
         height: 50%;
-        margin-left: 4px;
+        margin-left: 0.25em;
     }
 
     .magnifier {
@@ -66,14 +66,14 @@
         width: 100%;
         height: 50%;
         background-color: #282828;
-        border-radius: 5px;
+        border-radius: 0.313em;
         font-weight: 700;
-        font-size: 11px;
+        font-size: 0.688em;
     }
 
     .filter-option {
         font-weight: 700;
-        font-size: 11px;
+        font-size: 0.688em;
     }
 }
 
@@ -101,7 +101,7 @@
     .magnifier-image-container {
         width: 10%;
         height: 50%;
-        margin-left: 4px;
+        margin-left: 0.25em;
     }
 
     .magnifier {
@@ -122,14 +122,14 @@
         background-color: #282828;
         height: 50%;
         width: 60%;
-        border-radius: 5px;
+        border-radius: 0.313em;
         font-weight: bolder;
-        font-size: 13px;
+        font-size: 0.813em;
     }
 
     .filter-option {
         font-weight: 600;
-        font-size: 13px;
+        font-size: 0.813em;
     }
 }
 
@@ -193,7 +193,7 @@
     #search-engine {
         width: 85%;
         height: 50%;
-        padding: 8px;
+        padding: 0.5em;
         font-size: 1.063em;
         font-style: italic;
         color: #282828;
@@ -202,7 +202,7 @@
     .magnifier-image-container {
         width: 10%;
         height: 50%;
-        margin-left: 5px;
+        margin-left: 0.313em;
     }
 
     .magnifier {
@@ -223,21 +223,21 @@
         background-color: #282828;
         height: 50%;
         width: 60%;
-        border-radius: 5px;
+        border-radius: 0.313em;
         font-weight: bolder;
-        font-size: 15px;
+        font-size: 0.938em;
     }
 
     .filter-option {
         font-weight: 600;
-        font-size: 15px;
+        font-size: 0.938em;
     }
 }
 
 /* main area */
 .main-area {
-    width: 100%;
-    min-height: 85vh;
+    width: 100vw;
+    min-height: 82vh;
     background-color: #282828;
     display: flex;
     flex-flow: row wrap;
@@ -249,8 +249,8 @@
 .prompt-image-container {
     height: 50%;
     width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 1.25em;
+    border-top-right-radius: 1.25em;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -288,10 +288,10 @@
 /* Some examples of devices with these widths it's like the smartphones in vertical */
 @media screen and (min-width: 320px) and (max-width: 517px) {
     .product {
-        width: 320px;
-        height: 390px;
-        margin: 10px;
-        border: 1px solid transparent;
+        width: 20em;
+        height: 24.375em;
+        margin: 0.625em;
+        border: 0.063em solid transparent;
     }
 
     .prompt-title {
@@ -321,10 +321,10 @@
 /* Some examples of devices with these widths it's like again the smartphones in horizontal */
 @media screen and (min-width: 518px) and (max-width: 767px) {
     .product {
-        width: 350px;
-        height: 420px;
-        margin: 10px;
-        border: 1px solid transparent;
+        width: 21.875em;
+        height: 26.25em;
+        margin: 0.625em;
+        border: 0.063em solid transparent;
     }
 
     .prompt-title {
@@ -354,10 +354,10 @@
 /* Examples of devices with these widths it's like tablets */
 @media screen and (min-width: 768px) {
     .product {
-        width: 380px;
-        height: 450px;
-        margin: 10px;
-        border: 1px solid transparent;
+        width: 23.75em;
+        height: 28.125em;
+        margin: 0.625em;
+        border: 0.063em solid transparent;
     }
 
     .prompt-title {
@@ -386,8 +386,8 @@
 .button-container {
     height: 15%;
     width: 100%;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 1.25em;
+    border-bottom-right-radius: 1.25em;
     background-color: #3E3C3E;
     display: flex;
     flex-flow: column nowrap;
@@ -401,7 +401,7 @@
     font-weight: 900;
     font-size: 0.875em;
     border: 1px solid transparent;
-    border-radius: 5px;
+    border-radius: 0.313em;
     background-color: #232123;
 }
 
