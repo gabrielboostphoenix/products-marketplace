@@ -6,7 +6,6 @@
     margin: 0px;
     box-sizing: border-box;
     color: white;
-    font-size: 16px;
 }
 
 /* header area */
@@ -307,7 +306,7 @@
     .prompt-description-container {
         height: 20%;
         width: 100%;
-        padding: 0.625em 0em;
+        padding: 1.563em 0em;
         background-color: #232123;
         font-size: 1em;
         text-align: center;
@@ -341,7 +340,7 @@
     .prompt-description-container {
         height: 20%;
         width: 100%;
-        padding: 0.625em 0em;
+        padding: 1.563em 0em;
         background-color: #232123;
         font-size: 1.125em;
         text-align: center;
@@ -375,7 +374,7 @@
     .prompt-description-container {
         height: 20%;
         width: 100%;
-        padding: 0.625em 0em;
+        padding: 1.563em 0em;
         background-color: #232123;
         font-size: 1.25em;
         text-align: center;
